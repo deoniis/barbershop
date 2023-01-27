@@ -1,0 +1,327 @@
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+:root {
+    --basic-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --hover-color: #FF6C00;
+    --white-color: #FFFFFF;
+    --text-color: #9DA4BD;
+    --transperent-color: rgba(157, 164, 189, 0.6);
+    --second-text-color: #303030;
+    --another-text-color: #555555;
+    --background-color: #E5E5E5;
+    --transperent-black: rgba(25, 28, 38, 0.2)
+}
+    body {
+        background-color: var(--background-color);
+        font-family: var(--basic-font);
+        color: var(--another-text-color);
+       
+        
+    }
+
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    button {
+        cursor: pointer;
+        font-style: var(--basic-font);
+        border: 1px solid #FF6C00;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.09em;
+    }
+    
+    /* ----------------------------HEADER------------------------------*/
+.header-link {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+ 
+}
+.header-link:hover,
+.header-link:focus {
+    color: #FF6C00;
+
+}
+   .header-btn {
+    color: var(--white-color);
+    text-transform: uppercase;
+   }
+
+   /* ------------------LEFT SECTION---------------------- */
+.social-link {
+    font-family: var(--basic-font);
+    color: var(--second-text-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+.social-link:hover,
+.social-link:focus{
+    color: var(--hover-color);
+
+}
+
+/* /*-------------------- HERO SECTION *------------------- */
+.hero-text {
+    color: var(--transperent-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+.hero-title {
+    font-family: var(--secondary-font);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+.second-hero-text { 
+    font-weight: 400;
+    font-size: 18px;
+     line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+    
+}
+
+/* ---------------------------ABOUT---------------------- */
+.about-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+
+}
+.about-header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--second-text-color);
+    font-family: var(--secondary-font);
+}
+.additional-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;    
+    letter-spacing: 0.02em;
+    color: var(--another-text-color);
+}
+.second-about-text {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: var(--another-text-color);
+}
+
+.about-btn {
+    font-family: var(--basic-font);
+    color: var(--second-text-color);
+    text-transform: uppercase;
+}
+/* ---------------------services and prices-------------------------- */
+
+
+.price-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--transperent-color);
+}
+
+.price-header {
+    font-family: var(--secondary-font);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+
+}
+
+.item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+.price-btn {
+    color: var(--second-text-color);
+    text-transform: uppercase;
+}
+/* ---------------------STATISTIC------------------------ */
+
+.statistic-section {
+    background-color: var(--white-color);
+}
+.statistic-item span {
+    font-weight: 700;
+     font-size: 42px;
+     line-height: 1, 35;
+     letter-spacing: 0.05em;
+     color: var(--second-text-color);
+}
+
+.statistic-text {
+    font-weight: 600; 
+    font-size: 11px;
+    line-height: 1.36;
+    color: #303030;
+        
+}
+.statistic-header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+     letter-spacing: 0.05em;
+     color: var(--second-text-color);
+}
+.statistic-text-top {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+}
+.statistic-second-text {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: var(--another-text-color)
+}
+
+/* --------------------OUR BARBERS---------------------- */
+.barbers-text-top {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+
+.barbers-header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--second-text-color);
+    
+     
+}
+
+
+.name-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color)
+
+}
+
+.profession-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 0.02em;
+    color: var(--hover-color);
+}
+
+/* ------------------------GALLERY---------------------- */
+.gallery-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.36;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+/* ------------------------CONTACTS------------------------ */
+
+.contacts-title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+}
+.contacts-address {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+.tel {
+    font-weight: 400;
+     font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+.mail {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: var(--text-color);
+}
+.worktime-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.worktime-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* ----------------FOOTER------------------ */
+.footer-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--text-color);
+}
